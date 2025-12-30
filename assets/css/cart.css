@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #f1f3f6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Styling header part */
+header {
+    width: 100%;
+    height: 56px;
+    /* border: 1px solid black; */
+    background-color: #2874f0;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    top: 0px;
+    bottom: 56px;
+}
+
+/* Divs indside header */
+
+.headerbox1 {
+    width: 124px;
+    height: 56px;
+}
+
+.headerboxes {
+    width: 1248px;
+    height: 56px;
+    /* border: 1px solid black; */
+    margin: 0px 12.4px;
+    display: flex;
+}
+
+.headerbox2 {
+    width: 137.56px;
+    height: 56px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: -96px;
+}
+
+.flipkartlogo {
+    width: 75px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.logoimg {
+    width: 75px;
+    height: 20.11px;
+}
+
+.logoimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.logotxt {
+    width: 75px;
+    height: 15.4px;
+    display: flex;
+    font-style: italic;
+
+}
+
+.logotxt a {
+    text-decoration: none;
+    color: #e0e6f0;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.logotxt a span {
+
+    color: #ffe500;
+    font-weight: 600;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.headerbox3 {
+    width: 708px;
+    height: 56px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -32px;
+}
+
+.search input {
+    width: 521.67px;
+    height: 36px;
+    padding: 0px 16px;
+    border: none;
+    margin-left: 42px;
+    border-radius: 2px 0px 0px 2px;
+    background-color: white;
+    outline: none;
+    color: #919191;
+    font-size: 14px;
+    display: flex;
+}
+
+.search input::placeholder {
+    color: #919191;
+    font-size: 14px;
+
+
+}
+
+.searchicon button {
+    width: 42.33px;
+    height: 36px;
+    background-color: white;
+    border: none;
+    margin-right: 132px;
+    border-radius: 0px 2px 2px 0px;
+}
+
+.searchicon button img {
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+.headerbox4 {
+    width: 122.74px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 291px;
+
+}
+
+.loginbtn {
+    width: 122.74px;
+    height: 30px;
+    color: #2874f0;
+    font-size: 14px;
+    font-weight: 550;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+}
+
+.loginbtn a {
+    text-decoration: none;
+    color: #2874f0;
+}
+
+
+.section2 {
+    width: 100%;
+    height: 358.2px;
+    background-color: #f1f3f6;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    margin-bottom: px;
+
+}
+
+.section2box2 {
+    width: 1244px;
+    height: 369.2px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 33px 0px;
+}
+
+.section2box2img {
+    width: 221.91px;
+    height: 162px;
+}
+
+.section2box2img img {
+    width: 100%;
+    height: 100%;
+}
+
+.section2box2txt1 {
+    width: 1244px;
+    height: 25.2px;
+    color: #272727;
+    font-size: 18px;
+    margin-top: 33px;
+    text-align: center;
+}
+
+.section2box2txt2 {
+    width: 1244px;
+    height: 16.8px;
+    color: #272727;
+    font-size: 12px;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.loginbtn2 {
+    width: 178.73px;
+    height: 40px;
+    background-color: #fb641b;
+    border: none;
+    border-radius: 2px;
+    margin-top: 18.5px;
+    padding: 12px 72px;
+}
+
+.loginbtn2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/*  footer part */
+
+footer {
+    width: 1536px;
+    height: 81.8px;
+
+}
+
+.section3 {
+    width: 1536px;
+    height: 81px;
+    border-top: 1px solid #dddddd;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.footerbox1 {
+    width: 1382.4px;
+    height: 81px;
+    margin: 0px 76.8px;
+    padding: 25px;
+    display: flex;
+
+}
+
+.footerboxtxt2 {
+    width: 444.09px;
+    height: 31px;
+}
+
+.footerboxtxt1 {
+    width: 888.18px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    color: #565656;
+    font-size: 14px;
+}
+
+.foottxt1 {
+    margin-left: 35px;
+}
+
+.footerboxtxt2 {
+    display: flex;
+    justify-content: right;
+    color: #565656;
+    font-size: 14px;
+    align-items: center;
+}
+
+.footerboxtxt2 a {
+    text-decoration: none;
+    color: #2874f0;
+}
